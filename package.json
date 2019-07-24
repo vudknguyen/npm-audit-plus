@@ -1,0 +1,33 @@
+{
+  "name": "npm-audit-plus",
+  "version": "0.1.0-beta",
+  "description": "NPM Audit Plus, provide missing feature of NPM Audit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vudknguyen/npm-audit-plus.git"
+  },
+  "keywords": [
+    "NPM Audit",
+    "Audit",
+    "Ignore",
+    "Allow only production"
+  ],
+  "author": "vudknguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vudknguyen/npm-audit-plus/issues"
+  },
+  "bin": {
+    "audit-plus": "./index.js"
+  },
+  "homepage": "https://github.com/vudknguyen/npm-audit-plus#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "commander": "^2.20.0"
+  }
+}
